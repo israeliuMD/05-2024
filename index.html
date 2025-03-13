@@ -281,6 +281,15 @@
     width: 100%;
     box-sizing: border-box;
   }
+	.video-link {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.video-link:hover {
+  color: darkblue;
+}
   
   .question-container {
     padding: 15px;
@@ -1323,16 +1332,17 @@
     correctAnswer: "ד"
   },
   {
-    id: 83,
-    text: "מה מהבאים נכון בהתייחס לטיפול הראשוני במחלה המתייצגת בסרט שלהלן? https://media.examapp.co.il/277820/ibsquagb-1.webm",
-    options: {
-      'א': "יחל לעבוד בתוך 7-10 ימים בממוצע, ישפיע למשך 4-6 חודשים בממוצע.",
-      'ב': "יחל לעבוד בתוך 2-3 ימים בממוצע, ישפיע למשך 3-4 חודשים בממוצע.",
-      'ג': "יחל לעבוד בתוך 7-10 ימים בממוצע, ישפיע למשך 3-4 חודשים בממוצע.",
-      'ד': "יחל לעבוד בתוך 2-3 ימים בממוצע, ישפיע למשך 4-6 חודשים בממוצע."
-    },
-    image: "83-1.webm",
-    correctAnswer: "ג"
+  id: 83,
+  text: "מה מהבאים נכון בהתייחס לטיפול הראשוני במחלה המתייצגת בסרט הבא: <a href='https://media.examapp.co.il/277820/ibsquagb-1.webm' target='_blank' class='video-link'>צפה בסרטון</a>",
+  options: {
+    'א': "יחל לעבוד בתוך 7-10 ימים בממוצע, ישפיע למשך 4-6 חודשים בממוצע.",
+    'ב': "יחל לעבוד בתוך 2-3 ימים בממוצע, ישפיע למשך 3-4 חודשים בממוצע.",
+    'ג': "יחל לעבוד בתוך 7-10 ימים בממוצע, ישפיע למשך 3-4 חודשים בממוצע.",
+    'ד': "יחל לעבוד בתוך 2-3 ימים בממוצע, ישפיע למשך 4-6 חודשים בממוצע."
+  },
+  hasVideo: true,
+  videoUrl: "https://media.examapp.co.il/277820/ibsquagb-1.webm",
+  correctAnswer: "ג"
   },
   {
     id: 84,
